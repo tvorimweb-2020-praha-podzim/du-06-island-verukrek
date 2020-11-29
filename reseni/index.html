@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cestování po Islandu</title>
-    <link rel="stylesheet" href="style.css"> <!--Mám to dobře připojené?-->
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Raleway:wght@500;700&display=swap" rel="stylesheet">  
 </head>
 <body>
     <header>
         <h1>Island</h1>
         <p>Když se řekne Island, spoustě lidem se jako první vybaví sníh a led. Sama jsem tam strávila téměř rok života a zem pokrytou sněhem a ledem jsem zažila jen jediný den. Jednou věcí si ale jistá jsem: že návštěva ostrova pod polárním kruhem je pro každého tak silným zážitkem, že se sem bude chtít vrátit.</p>
-        <p>Jana Zcela Vymyšlená</p>
+        <p class="podpis">Jana Zcela Vymyšlená</p>
     </header>
     <main>
-        <nav>
+        <nav class="obsah">
            <ul>
-               <li>Úvod</li>
-                <li>Proč jet na Island</li>
-                <li>Co musíte vidět</li>
-                <li>Fotogalerie</li>
+                <li><a href="#uvodni">Úvod</a></li>
+                <li><a href="#proc">Proč jet na Island</a></li>
+                <li><a href="#co">Co musíte vidět</a></li>
+                <li><a href="#Fotogalerie">Fotogalerie</a></li>
            </ul> 
-        </nav> <!--Je tabulka dobře sestavená?-->
-        <div class="cast uvodni"></div>
+        </nav> 
+        <section id="uvodni">
             <p>
                 Island je jeden z nejpozoruhodnějších kousků pevniny, který v Evropě můžete navštívit. Neuchvátí jenom fotografy - krajináře, ale snad každého, kdo miluje divokou přírodu. Ne nadarmo se také říká, že si jej při první návštěvě zamilujete a budete se muset stále vracet. Byl to i můj případ!
             </p>
@@ -33,8 +35,8 @@
             </p>
             <img src="images/island1.jpg" alt="Island">
             <p>Photo &copy; <a href="https://flic.kr/p/yFnyAT">Moyan Brenn</a></p> 
-        </div>
-        <div class="cast proc">
+        </section>
+        <section id="proc">
             <h2>Proč jet na Island</h2>
             <p>
                 Island je domovem největšího evropského ledovce, vodopádu s nejmohutnějším průtokem a tisíců místních koní a divokých hus, které majestátně ve dvojicích křižují nebe a dokreslují tak neopakovatelnou atmosféru tohoto pozoruhodného kousku pevniny kdesi v Atlantiku. K tomu mohutné skalní útvary, čnící z moře jako tiší strážci místních černých lávových pláží, stovky metrů vysoké útesy, které jsou domovem racků a papuchalků a především obrovské vodopády všeho druhu. Panují tu trochu jiná měřítka, a to téměř ve všem. 
@@ -47,8 +49,8 @@
             </p>
             <img src="images/island2.jpg" alt="Island">
             <p>Photo &copy; <a href="https://flic.kr/p/yiAg2h">Moyan Brenn</a></p>  
-        </div>
-        <div class="cast co">
+        </section>
+        <section id="co">
             <h2>Co musíte vidět</h2>
             <p>
                 Poloostrov Reykjanes - Než z letiště v Keflavíku zamíříte do hlavního města, zajeďte se podívat na tento poloostrov. Je to zajížďka jen pár kilometrů a rázem se dostanete do krajiny pro Island přímo typické. Cestu lemují lávová pole připomínající doslova měsíční krajinu. Pro Středoevropana něco neuvěřitelného. Ani kousek zeleně, kam oko dohlédne jen černá suť a rozpraskané lávové desky. Mezi tím vším až mysteriózně vypadající geotermální elektrárny. Na pobřeží pak vystupují z vody poutavé skalní útvary Reykjanesta. 
@@ -71,8 +73,8 @@
             <p>
                 Dyrhólaey - Jde o nejjižnější cíp celého strova s vysokými útesy, na kterých ční jako tichý strážce velmi fotogenický maják. Zdejší útesy jsou také domovem Papuchalků (Fratercula arctica). Tito ptáci jsou opravdoví klauni a jejich nemotorný pohyb prostě musí vykouzlit úsměv na tváři každému. Mohutný lávový útes, ve kterém voda vyhloubila dvě skalní brány nebývalých rozměrů, prostě nesmíte vynechat.
             </p>
-        </div>
-        <div class="Fotogalerie">
+        </section>
+        <section id="Fotogalerie">
             <h2>Fotogalerie</h2>
             <figure>
             <img src="images/nahled1.jpg" alt="Myvatn Aurora">
@@ -91,35 +93,35 @@
             </figure>
             <figure>
             <img src="images/nahled4.jpg" alt="Stokksnes Sands">
-            <figcaption></figcaption>Stokksnes Sands<br>
+            <figcaption>Stokksnes Sands<br>
             Photo &copy; <a href="https://flic.kr/p/vzopTG">Kriss Williams</a></figcaption>
             </figure>
             <figure>
             <img src="images/nahled5.jpg" alt="Svartifoss (Black Fall)">
-            <figcaption></figcaption>Svartifoss (Black Fall)<br>
+            <figcaption>Svartifoss (Black Fall)<br>
             Photo &copy; <a href="https://flic.kr/p/v5Butv">Ron Kroetz</a></figcaption>
             </figure>
             <figure>
             <img src="images/nahled6.jpg" alt="Landmannalaugar">
-            <figcaption></figcaption>Landmannalaugar<br>
+            <figcaption>Landmannalaugar<br>
             Photo &copy; <a href="https://flic.kr/p/2SWHDd">Michel Osmont</a></figcaption>
             </figure>
             <figure>
             <img src="images/nahled7.jpg" alt="Iceland">
-            <figcaption></figcaption>Iceland<br>
+            <figcaption>Iceland<br>
             Photo &copy; <a href="https://flic.kr/p/aaqZLk">Eric Montford</a></figcaption>
             </figure>
             <figure>
             <img src="images/nahled8.jpg" alt="Bruarfoss waterfalls">
-            <figcaption></figcaption>Bruarfoss waterfalls<br>
+            <figcaption>Bruarfoss waterfalls<br>
             Photo &copy; <a href="https://flic.kr/p/nuUQM7">Moyan Brenn</a></figcaption>
             </figure>
             <figure>
             <img src="images/nahled9.jpg" alt="Jokulsarlon glacier lagoon">
-            <figcaption></figcaption>Jokulsarlon glacier lagoon<br>
+            <figcaption>Jokulsarlon glacier lagoon<br>
             Photo &copy; <a href="https://flic.kr/p/getEgS">Moyan Brenn</a></figcaption>
             </figure>
-        </div>
+        </section>
     </main>
     <footer>
         <p>
