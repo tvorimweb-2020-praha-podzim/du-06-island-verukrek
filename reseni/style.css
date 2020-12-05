@@ -92,5 +92,92 @@ footer{
     background: linear-gradient(0deg, rgba(234,234,240,0.3589743589743589) 87%, rgba(99,101,101,0.7435897435897436) 100%);
     background-color: rgb(202, 204, 204);
     padding: 1rem;
- 
+}
+/*VERZE M*/
+@media (min-width: 765px) {
+    .obsah ul{
+        display: flex;
+        justify-content: center;
+    }
+    .obsah li{
+        flex: 1;
+        border: rgb(202, 204, 204) solid 0.8px;
+        padding-bottom: 0;
+        margin: 0;
+    }
+    .obsah{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .obsah .uvo {
+        border-left: none;
+    }
+    .obsah .fot{
+        border-right: none;
+    }
+    .velka{
+        position: relative;
+    }
+    .hlavni{
+        position: absolute;
+        font-size: 10px;
+        font-style: italic;
+        bottom: 10px;
+        right: 10px;
+        color: cornsilk;
+    }
+    .hlavni a{
+        color: cornsilk;
+    }
+    h2{
+        padding-top: 1rem;
+    }
+    .galerie{
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 0;
+    }
+    .img{
+        position: relative;
+        overflow: hidden;
+        width: 50%;
+        padding-bottom: 0;
+        
+    }
+    .img img{ 
+        transition: transform 0.3s ease-in;
+    }
+    .img:hover img{
+        transform: scale(1.2);
+    }
+    .img figcaption{
+        opacity:0;
+        position: absolute;
+        background-color: rgb(50,50,50,0.7);
+        width: 100%;
+        transition: transform 0.3s ease-in;
+        transform: translateY(100%);
+        bottom: 0;
+        overflow: hidden;
+        line-height: 2.2;
+    }
+    .img figcaption,
+    .img span,
+    .img a {
+        color: cornsilk;   
+    }
+    .img:hover figcaption{
+        opacity: 1;
+        background-color: rgb(50,50,50,0.7);
+        height:30%;
+        transform: translateY(0);
+    }
+}
+    /*VERZE L*/
+@media (min-width: 1025px) {
+
+   /* width: calc(100%/3);   
+        display: block; */
 }
