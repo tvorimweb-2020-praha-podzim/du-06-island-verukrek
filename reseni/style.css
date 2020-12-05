@@ -60,6 +60,12 @@ ul {
 .obsah a:link{
     color:rgb(202, 204, 204);
 }
+.cara{
+    border: #629edb 2.5px solid;
+    width: 10%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 .text{
     padding: 1rem;
     padding-top: 0;
