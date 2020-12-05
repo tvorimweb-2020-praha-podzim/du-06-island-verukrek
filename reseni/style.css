@@ -15,6 +15,7 @@ h1{
 h2{
     font-family: 'Raleway', sans-serif;
     font-weight: 500; 
+    padding-left: 1rem;
 }
 header{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
@@ -28,12 +29,29 @@ header{
 .podpis{
     color: rgba(240, 236, 236, 0.8);
     font-style: italic;
+    margin: 0;
+}
+.podpis::before{
+    content: "_______";
+    display: block;
+    margin: 0.8rem;
+}
+ul {
+    padding-inline-start: 0;
 }
 .obsah li{
     display: block;
     text-align: center;
     list-style-type: none;
     text-transform: uppercase;
+    color: rgb(202, 204, 204);
+    margin: 0.5rem;
+    padding-bottom: 0.5rem;;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-bottom: rgb(202, 204, 204) solid 1px;
+}
+.obsah a:visited{
     color: rgb(202, 204, 204);
 }
 .obsah a{
@@ -42,6 +60,31 @@ header{
 .obsah a:link{
     color:rgb(202, 204, 204);
 }
-#uvodni{
+.text{
     padding: 1rem;
+    padding-top: 0;
+}
+img {
+    width: 100%;
+}
+.popisky,
+.popisky figcaption,
+.popisky a{
+    color: rgb(126, 126, 126);
+    text-align: center;
+}
+figure{
+    margin: 0;
+    padding-bottom: 1rem;
+}
+.foot a,
+.foot{
+    color: rgb(126, 126, 126);
+}
+footer{
+    background: rgb(234,234,240);
+    background: linear-gradient(0deg, rgba(234,234,240,0.3589743589743589) 87%, rgba(99,101,101,0.7435897435897436) 100%);
+    background-color: rgb(202, 204, 204);
+    padding: 1rem;
+ 
 }
