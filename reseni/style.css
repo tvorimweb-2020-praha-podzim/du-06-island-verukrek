@@ -186,6 +186,7 @@ footer{
     }
     header p{
         padding-top: 1.5rem;
+        max-width: 960px;
     }
     .celek{
         background-color:#f5f5f5;
@@ -199,26 +200,32 @@ footer{
     .obsah{
         display: flex;
         margin: 0;
-        padding-left: 0.7rem;
+        padding-left: 1.5rem;
+    }
+    .obsah a:hover{
+        color: #629edb;
     }
     ul{
         display: flex;
         flex-direction: column;
         height: 90px;
+        margin-top: 2.2rem;
     }
-    .uznevim{
+    .section-wrapper{
         display: flex;
     }
     .obsah li{
         text-align: left;
         width: 9rem;
         border: none;
-        border-bottom: rgb(202, 204, 204) solid 0.8px;        
+        border-bottom: rgb(202, 204, 204) solid 0.8px;   
+        padding-bottom: 0.5rem; 
+        padding-top: 0.5rem;    
     }
-    .nevimdve{
+    .section-inner{
         width: 70%;   
     }
-    .nevimtri{
+    .section-inner-two{
         padding-left: 15rem;
     }
     .img{
