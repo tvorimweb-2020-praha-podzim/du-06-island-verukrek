@@ -184,9 +184,12 @@ footer{
     h1{
         font-size: 40px;
     }
-    header p{
+    header p,
+    .podpis {
         padding-top: 1.5rem;
         max-width: 960px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .celek{
         background-color:#f5f5f5;
